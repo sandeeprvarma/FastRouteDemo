@@ -1,6 +1,6 @@
 <?php
 /**
-* 
+* Books class
 */
 class Books
 {
@@ -17,10 +17,5 @@ class Books
 	public function showbookid($id=array())
 	{
 		echo 'bookid = '.$id;
-	}
-
-	public function hello($id)
-	{
-		echo 'hello';
 	}
 }
